@@ -1,0 +1,23 @@
+console:
+    type: console
+    price: 500
+    extras:
+        controller1: { type: controller, wired: true, price: 20 }
+        controller2: { type: controller, wired: true, price: 25 }
+        controller3: { type: controller, wired: false, price: 40 }
+        controller4: { type: controller, wired: false, price: 45 }
+television1:
+    type: television
+    price: 1000
+    extras:
+        controller1: { type: controller, wired: false, price: 10 }
+        controller2: { type: controller, wired: false, price: 15 }
+television2:
+    type: television
+    price: 1200
+    extras:
+        controller1: { type: controller, wired: false, price: 15 }
+microwave:
+    type: microwave
+    price: 220
+    extras: {  }

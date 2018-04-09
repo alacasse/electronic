@@ -1,4 +1,4 @@
-Hi and thank you for looking at my script.
+Hi and thank you for looking at my script. 
 
 I had to fix the ElectronicItems and ElectronicItem classes, there were some typos that prevented me to use them properly.
 

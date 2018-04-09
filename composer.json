@@ -1,0 +1,9 @@
+{
+    "autoload": {
+      "psr-4": {"Electronics\\": "src/"}
+    },
+    "require": {
+        "symfony/console": "^3.4",
+        "symfony/yaml": "^3.4"
+    }
+}
