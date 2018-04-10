@@ -6,26 +6,16 @@ use App\Electronics as Electronics;
 
 class Television extends Electronics\ElectronicItem
 {
-    const MAX_EXTRAS = -1;
+    use SetExtrasTrait;
 
     /**
-     * @var Electronics\ElectronicItems
+     * No maximum
      */
-    private $extras;
+    const MAX_EXTRAS = -1;
 
     public function __construct()
     {
         $this->setType(parent::ELECTRONIC_ITEM_TELEVISION);
-    }
-
-    private function maxExtras()
-    {
-        return $this::MAX_EXTRAS;
-    }
-
-    public function setExtras(Electronics\ElectronicItems $extras)
-    {
-        $this->extras = $extras;
     }
 
     public function getTotalPrice()
